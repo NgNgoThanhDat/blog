@@ -8,8 +8,6 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'bootstrap-sass', '3.3.6'
 # Use redcarpet
 gem 'redcarpet'
-# Use ckeditor
-gem 'ckeditor'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use postgresql is the default database
@@ -53,3 +51,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'rails_12factor', group: :production

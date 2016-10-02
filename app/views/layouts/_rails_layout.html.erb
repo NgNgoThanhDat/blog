@@ -1,14 +1,17 @@
-<%= csrf_meta_tags %>
-
-<link data-turbolinks-track="true" href="/assets/application.css" media="all" rel="stylesheet" />	
+<!-- <link data-turbolinks-track="true" href="/assets/application.css" media="all" rel="stylesheet" /> -->	
 <!-- <link data-turbolinks-track="true" href="/assets/bootstrap.css" media="all" rel="stylesheet" /> -->
-<link data-turbolinks-track="true" href="/assets/clean-blog.min.css" media="all" rel="stylesheet" />
-<link data-turbolinks-track="true" href="/assets/font-awesome/css/font-awesome.min.css" media="all" rel="stylesheet" />
+<!-- <link data-turbolinks-track="true" href="/assets/clean-blog.min.css" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/font-awesome/css/font-awesome.min.css" media="all" rel="stylesheet" /> -->
 
 
-<link data-turbolinks-track="true" href="/assets/application.js" media="all" rel="javascripts" />
-<link data-turbolinks-track="true" href="/assets/jquery.min.js" media="all" rel="javascripts" />
+<!-- <link data-turbolinks-track="true" href="/assets/application.js" media="all" rel="javascripts" /> -->
+<!-- <link data-turbolinks-track="true" href="/assets/jquery.min.js" media="all" rel="javascripts" />
 <link data-turbolinks-track="true" href="/assets/bootstrap.min.js" media="all" rel="javascripts" />
 <link data-turbolinks-track="true" href="/assets/jqBootstrapValidation.js" media="all" rel="javascripts" />
 <link data-turbolinks-track="true" href="/assets/contact_me.js" media="all" rel="javascripts" />
-<link data-turbolinks-track="true" href="/assets/clean-blog.min.js" media="all" rel="javascripts" />
+<link data-turbolinks-track="true" href="/assets/clean-blog.min.js" media="all" rel="javascripts" /> -->
+
+<%= csrf_meta_tags %>
+
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
