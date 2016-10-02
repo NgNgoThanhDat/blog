@@ -5,3 +5,27 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Page.delete_all
+
+Page.create!(
+  title: 'My Second Post',  
+  body: 
+  %Q{### My List of Things To Do!
+
+  Here is the list of things I wish to do!
+  
+  * write more posts
+  * write even more posts
+  * write even more posts!},
+  published_at: Time.now
+)
+
+Page.create!(
+  title: 'My Very First Post',  
+  body: %Q{### There Is Something You Should Know!
+
+  This is my very first post using markdown!
+
+  How do you like it?  I learned this from [RichOnRails.com](http://richonrails.com/articles/rendering-markdown-with-redcarpet)!},
+  published_at: Time.now - 1.day
+)
