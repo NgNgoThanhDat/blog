@@ -16,16 +16,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">Home</a>
+                        <%= link_to 'Home', root_path %>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <%= link_to 'About', page_about_path %>
                     </li>
                     <li>
-                        <a href="#">Sample Post</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <%= link_to 'Create Blog', new_page_path %>
                     </li>
                 </ul>
             </div>
