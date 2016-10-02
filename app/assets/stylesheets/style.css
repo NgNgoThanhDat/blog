@@ -1,16 +1,9 @@
-p{
-	font-size: 14pt;
-}
-
 .btn-right{	
+	color: #ffffff;
 	text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
     margin-left: 600px;
     padding: 8px 15px; 
-}
-
-.btn-right a{
-	color: white;
 }
