@@ -98,4 +98,4 @@ end
 #   config.logger = ActiveSupport::TaggedLogging.new(logger)
 # end
 
-# config.assets.compile = true
+config.assets.compile = true
