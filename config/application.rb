@@ -12,7 +12,7 @@ module Blog
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
  #    config.assets.version = '1.0'
- #    config.assets.initialize_on_precompile = false
+    config.assets.initialize_on_precompile = false
 
 
 	# config.assets.raise_runtime_errors = false
