@@ -1,0 +1,19 @@
+<% provide(:title, "Home") %>
+<!-- Main Content -->
+<div class="row">
+	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		<% @pages.each do |page| %>
+		<div class="post-preview">						
+			<p><%= link_to(page.title, page) %></p>
+			<h5 class="post-meta">Published <%= time_ago_in_words (page.published_at) %> ago</h5>
+		</div>
+		<hr>
+		<% end %>
+		<!-- Pager -->
+		<ul class="pager">
+			<li class="next">
+				<a href="#">Older Posts &rarr;</a>
+			</li>
+		</ul>
+	</div>
+</div>
