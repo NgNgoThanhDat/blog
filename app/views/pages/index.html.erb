@@ -4,17 +4,11 @@
 	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 		<% @pages.each do |page| %>
 		<div class="post-preview">						
-			<p><%= link_to(page.title, page) %></p>
-			<%= link_to "Edit", edit_page_path(page), class: "btn btn-primary btn-xs" %>
-			<h5 class="post-meta">Published <%= time_ago_in_words (page.published_at) %> ago</h5>
+			<h2><%= link_to(page.title, page) %></h2>
+			<%= link_to "Edit", edit_page_path(page), class: "btn-md btn-primary btn-right" %>
+			<p class="post-meta">Published <%= time_ago_in_words (page.published_at) %> ago</p>
 		</div>
 		<hr>
 		<% end %>
-		<!-- Pager -->
-		<ul class="pager">
-			<li class="next">
-				<a href="#">Older Posts &rarr;</a>
-			</li>
-		</ul>
 	</div>
 </div>

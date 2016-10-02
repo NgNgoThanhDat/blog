@@ -16,5 +16,6 @@
  *= require bootstrap.min
  *= require clean-blog
  *= require clean-blog.min 
+ *= require style
  */
  
