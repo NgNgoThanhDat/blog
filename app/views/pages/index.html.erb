@@ -5,6 +5,7 @@
 		<% @pages.each do |page| %>
 		<div class="post-preview">						
 			<p><%= link_to(page.title, page) %></p>
+			<%= link_to "Edit", edit_page_path(page), class: "btn btn-primary btn-xs" %>
 			<h5 class="post-meta">Published <%= time_ago_in_words (page.published_at) %> ago</h5>
 		</div>
 		<hr>
