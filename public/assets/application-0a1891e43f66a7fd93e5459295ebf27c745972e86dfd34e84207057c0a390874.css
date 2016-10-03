@@ -6981,8 +6981,19 @@ hr.small {
     font-size: 30px;
   }
 }
+
+/* Dat them */
+.btn-right{   
+  text-align: center;    
+    display: inline-block;
+    border-radius: 12px;
+    margin-left: 600px;
+    padding: 8px 15px; 
+}
+/* End Dat them*/
+
 .post-preview > a {
-  color: #333333;
+  color: #ffffff;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
