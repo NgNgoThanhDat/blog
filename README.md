@@ -1,4 +1,4 @@
-﻿# Homework 1 - *Name of App*
+﻿# Homework 1 - *Blog App*
 
 **ONEPUNCHMAN** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
