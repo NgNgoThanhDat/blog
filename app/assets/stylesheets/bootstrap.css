@@ -3109,13 +3109,23 @@ fieldset[disabled] .btn-default.focus {
   background-color: #fff;
   border-color: #ccc;
 }
+/* Dat them */
+.btn-right{   
+  text-align: center;    
+    display: inline-block;
+    border-radius: 12px;
+    margin-left: 600px;
+    padding: 8px 15px; 
+}
+/* End Dat them*/
+
 .btn-default .badge {
   color: #fff;
   background-color: #333;
 }
 .btn-primary {
   color: #fff;
-  background-color: #ddd;
+  background-color: #337ab7;
   border-color: #E22211;
 }
 .btn-primary:focus,
