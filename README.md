@@ -1,10 +1,12 @@
 ﻿# Homework 1 - *Name of App*
 
-**Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
+**ONEPUNCHMAN** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sách sinh viên: **Your Name Here**
+Danh sách sinh viên:
+**1312123 - Nguyễn Ngô Thành Đạt**
+**1312061 - Lê Hồng Cường**
 
-URL: **Insert your Heroku URL here**
+URL: **https://onepunchman-123061.herokuapp.com**
 
 ## Chức năng
 
@@ -39,9 +41,9 @@ Danh sách chức năng **thêm** đã làm nhưng chưa được liệt kê ở
 Danh sách chức năng **phụ** đã làm nhưng không được liệt kê ở trên:
 
 Các chuẩn đầu ra cần thực hiện:
-* [ ] Git với Centralize Workflow
-* [ ] Git theo Feature Branch Workflow
-* [ ] Git theo Feature Branch Workflow có Pull Request
+* [x] Git với Centralize Workflow
+* [x] Git theo Feature Branch Workflow
+* [x] Git theo Feature Branch Workflow có Pull Request
 * [ ] Git theo Gitflow Workflow
 ## Video Walkthrough
 
