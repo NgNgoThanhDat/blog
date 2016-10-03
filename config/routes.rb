@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :pages
+  resources :pages do
+  	resources :comments
+  end
+
   get 'page/about'
 
   root 'pages#index'
