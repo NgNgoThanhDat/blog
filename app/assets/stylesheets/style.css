@@ -1,9 +1,13 @@
-.btn-right{	
-	color: #ffffff;
-	text-align: center;
-    text-decoration: none;
+.btn-right{
+	text-align: center;    
     display: inline-block;
     border-radius: 12px;
     margin-left: 600px;
     padding: 8px 15px; 
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  color: #fff;
+  background-color: #ddd;
+  border-color: #ddd;
 }

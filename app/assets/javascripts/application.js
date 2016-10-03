@@ -15,7 +15,9 @@
 //= require bootstrap
 //= require bootstrap.min
 //= require cable
-
+//= require clean-blog
+//= require clean-blog.min
+//= require contact_me
 //= require jqBootstrapValidation
 //= require jquery_ujs
 //= require turbolinks
